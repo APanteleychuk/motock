@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+### WordPress template
+*.log
+wp-config.php
+wp-content/backups/
+wp-content/plugins/hello.php
+/license.txt
+/readme.html
+.htaccess
+
+
+
