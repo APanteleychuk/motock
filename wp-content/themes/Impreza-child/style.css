@@ -8,3 +8,7 @@ Author URI: http://us-themes.com/
 */
 
 /*Add your own styles here:*/
+
+ul.product-categories ul.children{
+    display: none;
+}

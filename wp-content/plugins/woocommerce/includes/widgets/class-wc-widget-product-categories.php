@@ -241,7 +241,12 @@ class WC_Widget_Product_Categories extends WC_Widget {
 
 			wp_list_categories( apply_filters( 'woocommerce_product_categories_widget_args', $list_args ) );
 
-			echo '</ul>';
+			echo "</ul><script>jQuery('.product-categories .cat-parent').children('a').click(function() {
+  jQuery(this).siblings('.children').slideToggle();
+  return false;
+});</script> <style>
+
+</style>";
 		}
 
 		$this->widget_end( $args );
